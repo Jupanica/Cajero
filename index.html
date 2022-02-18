@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cajero</title>
+</head>
+
+<body>
+
+    <body>
+        <div>
+            <div>
+                <h2>Cajero Automatico</h2>
+            </div>
+
+            <div id="ingreso">
+                <input type="text" id="nombre" placeholder="ingresa tu nombre" name="nombre" />
+                <input type="password" id="clave" placeholder="ingresa tu clave" />
+                <button id="button-ingresar">Ingresar</button>
+            </div>
+
+            <div class="gridbotones" id="gridbotones">
+                <input type="number" id="monto" placeholder="ingresa monto" />
+                <button onclick="CapturarDatos('7')">7</button>
+                <button onclick="CapturarDatos('8')">8</button>
+                <button onclick="CapturarDatos('9')">9</button>
+                <button onclick="CapturarDatos('4')">4</button>
+                <button onclick="CapturarDatos('5')">5</button>
+                <button onclick="CapturarDatos('6')">6</button>
+                <button onclick="CapturarDatos('1')">1</button>
+                <button onclick="CapturarDatos('2')">2</button>
+                <button onclick="CapturarDatos('3')">3</button>
+                <button id="button-retirar">Retirar</button>
+                <button onclick="CapturarDatos('0')">0</button>
+                <button id="button-consignar">Consignar</button>
+                <p id="saldo-final"></p>
+
+            </div>
+        </div>
+
+        <div class="gridbotones" id="create-account">
+            <input type="number" id="saldo-inicial" placeholder="ingresa monto" />
+            <button onclick="CapturarDatos('7')">7</button>
+            <button onclick="CapturarDatos('8')">8</button>
+            <button onclick="CapturarDatos('9')">9</button>
+            <button onclick="CapturarDatos('4')">4</button>
+            <button onclick="CapturarDatos('5')">5</button>
+            <button onclick="CapturarDatos('6')">6</button>
+            <button onclick="CapturarDatos('1')">1</button>
+            <button onclick="CapturarDatos('2')">2</button>
+            <button onclick="CapturarDatos('3')">3</button>
+            <button onclick="CapturarDatos('0')">0</button>
+            <button id="button-crear">CrearCuenta</button>
+        </div>
+        </div>
+
+
+        <script src="js/index.js"></script>
+    </body>
+</body>
+
+</html>\
